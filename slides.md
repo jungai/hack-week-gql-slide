@@ -61,15 +61,15 @@ export default () => {
   // response
   // { name: "ju", id: 1, email: "test@gmail.com", tel: "0800000000"}
 
-  const userData = axios.get('/users')
+  const userData = axios.get("/users");
 
   return (
     <div>
       <p>{userData.name}</p>
-      <p><{userData.id}</p>
+      <p>{userData.id}</p>
     </div>
-  )
-}
+  );
+};
 ```
 
 ---
@@ -86,17 +86,17 @@ export default () => {
   // response idol
   // { name: 'iu', song: "bbibbi,fluu", user_id: 1 }
 
-  const userData = axios.get('/users')
-  const kPopData = axios.get('/idol/user/1')
+  const userData = axios.get("/users");
+  const kPopData = axios.get("/idol/user/1");
 
   return (
     <div>
       <p>{userData.name}</p>
-      <p><{user.id}</p>
+      <p>{user.id}</p>
       <p>{kPopData.name}</p>
     </div>
-  )
-}
+  );
+};
 ```
 
 ---
