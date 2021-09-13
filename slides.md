@@ -209,6 +209,12 @@ type Query {
 
 ---
 
+# Resolver
+
+- การทำงานของ query, mutation
+
+---
+
 # Coding Section
 
 Start With **apollo-server**
@@ -250,3 +256,25 @@ server.listen().then(({ url }) => {
 ```
 
 ---
+
+Gql approach
+
+- **SDL First** (apollo) (เริ่มที่ตัว schema)
+- **Code First** (nexus, type-graphql) (เริ่มที่เติม resolver)
+
+---
+
+# Prisma
+
+- Typescript ORM
+- Type-safe database client
+
+---
+
+# Prisma (Cont.)
+
+- nice documentation
+- easy to use (maybe)??
+- generate typescript interface
+- can use with raw query
+- Introspection mode
