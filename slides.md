@@ -270,3 +270,20 @@ Gql approach
 - generate typescript interface
 - can use with raw query
 - Introspection mode
+
+---
+
+# Elixir
+
+- functional programing
+- run under **erlang vm** (beam)
+- it compiled to erlang
+
+---
+
+# Elixir (Cont.)
+
+- everything is **process**
+- it has **gen-server**, **supervisor**
+
+[sample code](https://github.com/jungai/might-work-with-supervisor-and-genserver)
