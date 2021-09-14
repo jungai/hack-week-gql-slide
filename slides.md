@@ -114,10 +114,6 @@ export default () => {
 - schema document
 - so many tools 😒
 
-## Example
-
-[จิ้ม 😏](http:localhost:4000)
-
 ---
 
 # Graphql
@@ -204,6 +200,12 @@ type Query {
 # Resolver
 
 - การทำงานของ query, mutation
+
+---
+
+# Example
+
+[จิ้ม 😏](http:localhost:4000)
 
 ---
 
